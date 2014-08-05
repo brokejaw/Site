@@ -758,8 +758,8 @@
 	@keyframes reveal-banner { 0% { opacity: 0; } 100% { opacity: 1; } }
 
 	#banner {
-		background-attachment: fixed;
-		background-color: #645862;
+		/*background-attachment: scroll;*/
+		/*background-color: #645862;*/
 		background-image: url("../images/banner.jpg");
 		background-position: top left;
 		background-repeat: no-repeat;
@@ -768,6 +768,7 @@
 		cursor: default;
 		padding: 6em 0;
 		text-align: center;
+		height: 100%;
 	}
 
 		#banner .inner {
@@ -869,7 +870,7 @@
 		background-color: #645862;
 		background-image: url("../images/banner.jpg");
 		background-position: top left;
-		background-repeat: no-repeat;
+		background-repeat: repeat;
 		background-size: cover;
 		color: white;
 		padding: 5em;
