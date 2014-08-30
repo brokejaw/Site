@@ -990,8 +990,8 @@
 		width: 5em;
 	}
 	
-	.resume-contents {
-		display: none;
+	.resume {
+		color: white;
 	}
 	/*
 	.resume-view {
